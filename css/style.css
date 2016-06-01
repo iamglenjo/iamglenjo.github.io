@@ -881,3 +881,13 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #1BB1BF;
 }
+
+
+@media (max-width: 480px){
+
+    header .intro-text {
+        padding-top: 400px;
+        padding-bottom: 50px
+    }
+
+}
