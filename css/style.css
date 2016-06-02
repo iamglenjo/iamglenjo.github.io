@@ -369,7 +369,7 @@ section h3.section-subheading {
     display: block;
     position: relative;
     max-width: 400px;
-    margin: 0 auto
+    margin: 0 auto;
     opacity: 1;
     transition: all ease .5s;
     -webkit-transition: all ease .5s;
@@ -382,7 +382,6 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;  
 }
-
 
 #works .portfolio-item .portfolio-link .portfolio-hover {
     background: rgba(254, 209, 54, .9);
