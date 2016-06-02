@@ -883,8 +883,20 @@ body {
 }
 
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
 
+    header .intro-text {
+        padding-top: 400px;
+        padding-bottom: 100px;
+    }
+
+    header .intro-text .intro-heading {
+        font-size: 30px;   
+    }
+
+}
+
+@media (max-width: 320px) { 
     header .intro-text {
         padding-top: 245px;
         padding-bottom: 50px
