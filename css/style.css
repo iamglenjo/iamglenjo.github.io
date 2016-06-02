@@ -287,7 +287,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 900;
-    font-size: calc(29px + 45 * ((100vw - 320px) / 1360)); /*50px;*/
+    font-size: 50px; /*calc(29px + 45 * ((100vw - 320px) / 1360));*/
     line-height: 1.26;
     letter-spacing: -1px;
     margin-bottom: 10px;
@@ -886,8 +886,12 @@ body {
 @media (max-width: 480px){
 
     header .intro-text {
-        padding-top: 400px;
+        padding-top: 245px;
         padding-bottom: 50px
+    }
+
+    header .intro-text .intro-heading {
+        font-size: 30px;   
     }
 
 }
