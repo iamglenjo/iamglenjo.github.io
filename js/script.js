@@ -49,3 +49,9 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+
+//Stop YT Video Modal Close
+$('#myModal').on('hidden.bs.modal', function () {
+    callPlayer('yt-player', 'stopVideo');
+});
